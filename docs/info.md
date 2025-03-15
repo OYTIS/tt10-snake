@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+It's a simple project done in WokWi during a workshop. You give it clock, it shows you a snake on a 7-segment indicator. No reset logic unfortunately, initial state is unpredictable.
 
 ## How to test
 
-Explain how to use your project
+Supply clock over a pin. There is no debounce logic, so using a physical button will not work properly.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+7-segment indicator, dot is not used.
